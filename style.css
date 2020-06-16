@@ -4,6 +4,7 @@ GENERAL
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: black;
 }
 
 #wrapper {
@@ -43,7 +44,7 @@ header {
 }
 
 h1 {
-  font-family: 'Changa One', sans-serif;
+  font-family: 'Helvetica';
   margin: 15px 0;
   font-size: 1.75em;
   font-weight: normal;
@@ -119,15 +120,15 @@ PAGE: PORTFOLIO
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7;
+  background-color: #1b1919;
+  color: #80a1b7;
 }
 
 #gallery li a p {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  color: #bdc3c7
+  color: #95c1de
 }
 
 
@@ -185,39 +186,39 @@ COLORS
 
 /* site body */
 body {
-  background-color: #fff;
+  background-color: #383333;
   color: #999;
 }
 
 /* green header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #181918;
+  border-color: #32543a;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #4c504d;
 }
 
 /* logo text */
 h1, h2 {
-  color: #fff;
+  color: #d1f3ed;
 }
 
 /* links */
 a {
-  color: #6ab47b;
+  color: #8cd4da;
 }
 
 /* nav link */
 nav a, nav a:visited {
-  color: #fff;
+  color: #86eef1;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #7095a9;
 }
 
 
@@ -299,7 +300,7 @@ MEDIA QUERIES
   }
   
   header {
-    border-bottom: 5px solid #599a68;
+    border-bottom: 5px solid #4d4e4d;
     margin-bottom: 60px;
   }
 

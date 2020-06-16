@@ -2,6 +2,8 @@
 GENERAL
 ***********************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: black;
@@ -44,7 +46,7 @@ header {
 }
 
 h1 {
-  font-family: 'Helvetica';
+  font-family: 'Spicy Rice', cursive;
   margin: 15px 0;
   font-size: 1.75em;
   font-weight: normal;

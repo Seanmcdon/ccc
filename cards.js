@@ -15,8 +15,8 @@ for(var i = 0; i < students.length; i++){
   
   var card = `<li>
         <a href="#">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/25480/numbers-01.jpg" alt="">
-          <p>Student #1</p>
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/25480/numbers-01.jpg" alt="${students[i].name}'s picture">
+          <p>${students[i].name}</p>
         </a>
       </li>`;
  

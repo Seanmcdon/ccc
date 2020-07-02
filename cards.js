@@ -12,10 +12,10 @@
 var cards = "";
 
 for(var i = 0; i < students.length; i++){
-  
+  //${students[i].picture}  
   var card = `<li>
         <a href="${students[i].link}">
-          <img src="${students[i].picture}" alt="${students[i].name}'s picture">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/25480/numbers-12.jpg" alt="${students[i].name}'s picture">
           <p>${students[i].name}</p>
         </a>
       </li>`;

@@ -16,7 +16,7 @@ for(var i = 0; i < students.length; i++){
   var card = `<li>
         <a href="students/student/index.html">
           <img src="ccc-student-pic.jpg" alt="${students[i].name}'s picture">
-          <p>${students[i].name}</p>
+          <p>${students[i].name} &#8599;</p>
         </a>
       </li>`;
  

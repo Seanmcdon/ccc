@@ -116,10 +116,10 @@ PAGE: PORTFOLIO
   margin: 0;
   padding: 0;
   list-style: none;
+  display: inline-grid;
 }
 
 #gallery li {
-  float: left;
   width: 45%;
   margin: 2.5%;
   background-color: #1b1919;

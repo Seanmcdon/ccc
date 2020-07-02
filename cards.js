@@ -11,7 +11,7 @@
 
 var cards = "";
 
-for(var i == 0; i < students.length; i++){
+for(var i = 0; i < students.length; i++){
   
   var card = `<li>
         <a href="#">

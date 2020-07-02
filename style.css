@@ -123,6 +123,7 @@ PAGE: PORTFOLIO
   margin: 2.5%;
   background-color: #1b1919;
   color: #80a1b7;
+  float: left;
 }
 
 #gallery li a p {
@@ -255,7 +256,7 @@ MEDIA QUERIES
   }
   
   #gallery li:nth-child(4n) {
-    clear: left;
+    /*clear: left;*/
   }
   
   /**********************************
